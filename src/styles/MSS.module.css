@@ -9,8 +9,8 @@
     width: 100%;
     height: 10rem;
 }
-.body{
-    height: 44rem;
+.introbody{
+    height: 25rem;
     width: 40rem;
     display: flex;
     flex-direction: column;
@@ -30,10 +30,40 @@
 
 .martinpiccss{
     size: contain;
-    max-width: 60%;
-    height: auto;
+    max-width: 100%;
+    height: 20rem;
     margin: auto;
     margin-top: 2rem;
     border-radius: 50%;
     border: 2px black solid;
+}
+
+.lowerbody{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80rem;
+    margin-top: 4rem;
+}
+
+.lowerbodyflex{
+    display: flex;
+}
+
+.lowerbodybox{
+    width: 50%;
+    height: 30rem;
+    text-align: center;
+    background-color: #101820;
+    color: #FEE715;
+    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.lowerbodyboxinv{
+    width: 50%;
+    text-align: center;
+    background-color: #FEE715;
+    color: #101820;
+    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
